@@ -1,0 +1,26 @@
+# Model weights — too large for GitHub (230MB)
+models/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Data files — too large for GitHub
+data/raw/train_spider.json
+data/raw/dev.json
+data/
+
+# Results
+eval_results.json
+
+# Environment
+.env
+*.egg-info/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
